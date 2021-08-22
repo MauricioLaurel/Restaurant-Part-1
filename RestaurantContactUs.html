@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!--Mauricio Laurel
+    08/17/2021 Start
+    08/18/2021 Last Update
+    Complete by 08/18/2021
+-->
+
+<html lang="en">
+    
+    <head id="Contact-Us">
+        <title>Contact Us</title>
+    </head>
+    
+    <body id="Contact-Us-InformatioN-Profile">
+    <main>
+        <header>
+            <center><h1>Mauricio's Michelin Star Restaurant</h1></center>
+        </header>
+
+<!--Navigation Section, again spamming '&nbsp' until better way is known
+-->
+<nav id="Navigation">
+    <hr />
+    <a href="RestaurantHome.html">Home</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="RestaurantMenu.html">Menu</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <a href="RestaurantContactUs.html">Contact Us</a>
+    <hr />
+    <p></p>
+</nav>
+<!--Use of table to mimic? Use of <br /> spam to vertically align text with textarea until better solution found
+-->
+
+    <section>
+    <article id="Input-Information">
+        <form action="ImaginaryDataPage.html" method="POST">
+            <center>
+                <table style="padding-bottom:285px">
+                    <tr>  
+                        <td style="padding-bottom:10px" align="right"><label for="Name" id="Name"><font size="6">Name:</font></label></td>
+                    <td style="padding-bottom:10px;"><input type="text" style="font-size:15pt;" name="Name" required /></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:10px;" align="right"><label for="Email" id="Email"><font size="6">Email:</font></label></td>
+                    <td style="padding-bottom:10px;"><input type="text" style="font-size:15pt;" name="Email"></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:10px;" align="right"><label for="Phone" id="Phone"><font size="6">Phone:</font></label></td>
+                    <td style="padding-bottom:10px;"><input type="text" style="font-size:15pt;" name="Phone"></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:10px;" align="right"><label for="RasonforInquiry" id="Reason"><font size="6">Reason for Inquiry:</font></label></td>
+                    <td style="padding-bottom:10px;"><select name="Reason for Inquiry">
+                        <option value="Catering" style="font-size:15pt;">Catering(Default)</option>
+                        <option value="PrivateParty" style="font-size:15pt;">Private Party</option>
+                        <option value="Feedback" style="font-size:15pt;">Feedback</option>
+                        <option value="Other" style="font-size:15pt;">Other</option></select></td>
+                </tr>    
+                <tr>    
+                    <td style="padding-bottom:15px;" align="right"><label for="AdditionInformation" id="AdditionalInformation"><font size="6">Additional Information:</font></label><br /><br /><br /></td>
+                        <td style="padding-bottom:15px;"><textarea name="AdditionalInformation" style="font-size:12pt;"></textarea></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:15px;" align="right"><label for="HaveYouBeenBefore" id="HaveYouBeenBefore"><font size="6">Have you been to the restaurant?</font></label></td>
+                    <td style="padding-bottom:15px;"><input type="radio" style="height:2em; width:2em;" name="answer" value="Yes"><font size="6">Yes</font> &nbsp &nbsp 
+                                                    <input type="radio" style="height:2em; width:2em;" name="answer" value="No"><font size="6">No</font></td>
+                </tr>
+                <tr>
+                    <td style="padding-bottom:15px;" align="right"><label for="bestdaysofcontact" id="bestdaysofcontact"><font size="6">Best days to contact you:</font></label></td>
+                    <td style="padding-bottom:15px;"><input type="checkbox" style="height:2em; width:2em;" name="days" value="Monday"><font size="6">M</font> &nbsp
+                                                     <input type="checkbox" style="height:2em; width:2em;" name="days" value="Tuesday"><font size="6">T</font> &nbsp
+                                                     <input type="checkbox" style="height:2em; width:2em;" name="days" value="Wednesday"><font size="6">W</font> &nbsp
+                                                     <input type="checkbox" style="height:2em; width:2em;" name="days" value="Thursday"><font size="6">T</font> &nbsp
+                                                     <input type="checkbox" style="height:2em; width:2em;" name="days" value="Friday"><font size="6">F </font></td>
+                </tr>
+                <tr>
+                <td style="padding-bottom:15px;" colspan="2" align="center"><input type="Submit" value="Send Request" style="font-size:15pt;" />
+                </tr>
+                </table>
+            
+            </center>
+        </form>
+    
+            
+    </article>
+    </section>    
+            
+    </main>
+    </body>
+    
+    <hr />
+    <footer id="footer"> 
+        <center>East Hastings Street, Vancouver, British Columbia, VVY TVT4 <br />
+                604-444-5555 
+        </center>        
+    </footer>
+</html>
